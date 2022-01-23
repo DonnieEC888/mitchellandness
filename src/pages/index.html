@@ -3,4 +3,54 @@ layout: index-layout
 subject: 30% OFF Sunday’s Sitewide Sale
 ---
 
+<!-- Body -->
 
+<!-- Statewide Sale -->
+<container>
+  <row>
+    <columns>
+      <a href="{{data.statewide.link}}" target="_blank">
+        <img src="{{data.statewide.image}}" alt="sale-statewide">
+      </a>
+    </columns>
+  </row>
+</container>
+
+<!-- Items -->
+
+<container>
+  <!-- Jackets -->
+  <row>
+    <columns>
+      <a href="{{data.jacket.link}}" target="_blank">
+        <img src="{{data.jacket.image}}" alt="item">
+        <img src="{{root}}assets/img/img/jackets2.jpg" alt="item">
+      </a>
+    </columns>
+  </row>
+  <row>
+    <columns>
+      <a href="{{data.jacket.link}}" target="_blank">
+        <img src="{{root}}/assets/img/img/jackets-button.jpg" alt="item">
+      </a>
+    </columns>
+  </row>
+  <!-- Jerseys,Headwear,Shorts -->
+  {{#each data.items}}
+  <row>
+    <columns>
+
+      <a href="{{this.link}}" target="_blank">
+        <img src="{{this.image}}" alt="item">
+      </a>
+    </columns>
+  </row>
+  <row>
+    <columns>
+      <a href=" {{this.link}}" target="_blank" c>
+        <img src="{{this.button}}" alt="button">
+      </a>
+    </columns>
+  </row>
+  {{/each}}
+</container>

@@ -1,0 +1,42 @@
+{
+    "header": {
+        "image": "https://i.imgur.com/GOezxXn.jpg",
+        "image2": "https://i.imgur.com/viGK7W6.jpg",
+        "link": "https://www.mitchellandness.com/?rs_oid_rd=569516960045814&utm_campaign=20220123_30%25+Off+Sitewide+Day2&utm_medium=email&utm_source=ReSci-Promo+blast"
+    },
+    "statewide": {
+        "image": "https://i.imgur.com/rpStaXU.jpg",
+        "link": "https://www.mitchellandness.com/men/mens-clothing/mens-outerwear?rs_oid_rd=569516960045814&utm_campaign=20220123_30%25+Off+Sitewide+Day2&utm_medium=email&utm_source=ReSci-Promo+blast"
+    },
+
+    "jacket": {
+        "item": "Jacket",
+        "image": "https://i.imgur.com/wxvJuZC.jpg",
+        "image2": "https://i.imgur.com/6rPGexY.jpg",
+        "button": "https://i.imgur.com/J0KqZXU.jpg",
+        "link": "https://www.mitchellandness.com/men/mens-clothing/mens-outerwear?rs_oid_rd=569516960045814&utm_campaign=20220123_30%25+Off+Sitewide+Day2&utm_medium=email&utm_source=ReSci-Promo+blast"
+    },
+
+    "items": [{
+            "item": "Jersey",
+            "image": "https://i.imgur.com/tO3h99q.jpg",
+            "button": "https://i.imgur.com/mej9xdZ.jpg",
+            "link": "https://www.mitchellandness.com/jerseys/nba-jerseys?rs_oid_rd=569516960045814&utm_campaign=20220123_30%25+Off+Sitewide+Day2&utm_medium=email&utm_source=ReSci-Promo+blast"
+        },
+        {
+            "item": "Headwear",
+            "image": "https://i.imgur.com/N7Up74m.jpg",
+            "button": "https://i.imgur.com/OMBvGMZ.jpg",
+            "link": "https://www.mitchellandness.com/headwear?rs_oid_rd=569516960045814&utm_campaign=20220123_30%25+Off+Sitewide+Day2&utm_medium=email&utm_source=ReSci-Promo+blast"
+        },
+        {
+            "item": "Shorts",
+            "image": "https://i.imgur.com/P1pZlbb.jpg",
+            "button": "https://i.imgur.com/o46j2pg.jpg",
+            "link": "https://www.mitchellandness.com/shorts?rs_oid_rd=569516960045814&utm_campaign=20220123_30%25+Off+Sitewide+Day2&utm_medium=email&utm_source=ReSci-Promo+blast"
+        }
+
+
+    ]
+
+}
