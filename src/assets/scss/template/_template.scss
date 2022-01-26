@@ -7,5 +7,31 @@ html{
   background: #f3f3f3 !important;
 }
 
+.horizontal {
+  border-top: 1px solid #000000;
+}
+.footer__links {
+  a {
+    color: #555555 !important
+  }
+  .footer__links-link {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 14px;
+    width: 22%;
+  }
+  .men {
+    text-align: center;
+  }
+  .women {
+    text-align: center;
+    
+  } 
+
+  .headwear {
+    text-align: end;
+  }
+
+}
 
 

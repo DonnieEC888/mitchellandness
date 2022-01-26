@@ -37,6 +37,27 @@
         }
 
 
-    ]
+    ],
+    "newreleases":
+        {
+            "title": "new releases",
+            "link": "https://www.mitchellandness.com/new-releases-1?rs_oid_rd=569516960045814&utm_campaign=20220123_30%25+Off+Sitewide+Day2&utm_medium=email&utm_source=ReSci-Promo+blast"
+        },
+    "men":
+        {
+            "title": "men",
+            "link": "https://www.mitchellandness.com/men/mens-clothing?rs_oid_rd=569516960045814&utm_campaign=20220123_30%25+Off+Sitewide+Day2&utm_medium=email&utm_source=ReSci-Promo+blast"
+        },
+    "women":
+        {
+            "title": "women",
+            "link": "https://www.mitchellandness.com/women/clothing-1?rs_oid_rd=569516960045814&utm_campaign=20220123_30%25+Off+Sitewide+Day2&utm_medium=email&utm_source=ReSci-Promo+blast"
+        },
+    "headwear":
+        {
+            "title": "headwear",
+            "link": "https://www.mitchellandness.com/headwear?rs_oid_rd=569516960045814&utm_campaign=20220123_30%25+Off+Sitewide+Day2&utm_medium=email&utm_source=ReSci-Promo+blast"
+        }
+
 
 }
