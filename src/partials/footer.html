@@ -34,9 +34,35 @@
 </container>
 <container>
     <!-- Horizontal Line -->
-    <row>
+    <row style="margin-bottom: 12px;">
       <columns class="horizontal">
       </columns>
+    </row>
+</container>
+
+<!-- Social Links -->
+<container>
+    <row>
+        <columns></columns>
+        <columns class="social__links"  large="4" small="4">
+                
+                <a href="{{data.facebook.link}}" class="social__link">
+                    <img src="{{data.facebook.image}}" alt="facebook" class="social__link-icon float-right">
+                </a>
+
+        </columns>
+            <columns class="social__links"  large="4" small="4"> 
+                <a href="{{data.twitter.link}}" class="social__link">
+                    <img src="{{data.twitter.image}}" alt="facebook" class="social__link-icon float-center">
+                </a>
+            </columns> 
+           
+           <columns class="social__links"  large="4" small="4">
+            <a href="{{data.instagram.link}}" class="social__link">
+                <img src="{{data.instagram.image}}" alt="facebook" class="social__link-icon">
+            </a>
+        </columns>
+        <columns></columns>     
     </row>
 </container>
 
