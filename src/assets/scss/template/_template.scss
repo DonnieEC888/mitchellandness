@@ -10,16 +10,31 @@ html{
 .horizontal {
   border-top: 1px solid #000000;
 }
+
+@media only screen and (max-width: 425px) {
+  table.body .columns {
+    padding-left: 28px !important;
+  }
+ 
+}
 .footer__links {
+ 
   padding-left: 50px !important;
   a {
-    color: #555555 !important
+    color: #555555 !important;
   }
+
   .footer__links-link {
     text-transform: uppercase;
     display: inline-block;
-    font-size: 14px;
+    font-size: 14px ;
     width: 22%;
+    @media only screen and (max-width: 425px) {
+      font-size: 11px ;
+    }
+    @media only screen and (max-width: 375px) {
+      font-size: 8px ;
+    }
   }
   .men {
     text-align: center;
@@ -35,8 +50,31 @@ html{
 
 }
 
+.facebook {
+  position: relative;
+  left: 38px;
+}
+
+.instagram {
+  position: relative;
+  right: 38px;
+}
 .social__link-icon {
-  width: 32px;
+  width: 32px !important;
+}
+
+.policy__info {
+  p {
+    font-size: 11px;
+    text-align: center;
+    @media only screen and (max-width: 425px) {
+      font-size: 9px ;
+    }
+  }
+  .link {
+    color: #000000;
+    text-decoration: underline;
+  }
 }
 
 
